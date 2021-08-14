@@ -56,7 +56,7 @@ header .content-header nav a:last-child {
 }
 
 .transform .transform-content {
-  padding: 0 8rem;
+  padding: 0 7rem;
   display: flex;
   align-items: center;
 }
@@ -85,6 +85,50 @@ header .content-header nav a:last-child {
 }
 
 .stand-audience img {
-  width: 720px;
+  width: 46.7%;
   height: 600px;
+}
+
+.stand-audience .stand-audience-content {
+  padding: 0 7rem;
+  display: flex;
+  align-items: center;
+}
+
+.stand-audience .stand-audience-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);    
+}
+
+.stand-audience-content p {
+  font-family: Barlow !important;
+  font-weight: 400;
+
+  margin-bottom: 2rem;
+}
+
+.stand-audience-content a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--dark-blue);
+  border-bottom: 2px dashed var(--red);
+}
+
+.graphic-and-photography {
+  display: flex;
+  height: 600px;
+  width: 100%;
+}
+
+.graphic-and-photography .graphic{
+  flex-basis: 50%;
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-position: center;
+}
+
+.graphic-and-photography .photography {
+  flex-basis: calc(50% + 6rem);
+  background-image: url(/images/desktop/image-photography.jpg);
+  background-position: center;
 }
