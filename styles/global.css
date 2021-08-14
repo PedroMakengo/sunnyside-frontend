@@ -18,6 +18,9 @@
   --dark-graysh-blue-100: hsl(232, 10%, 55%);
   --dark-graysh-blue-200: hsl(210, 4%, 67%);
 
+  --dark-cyan-200: #427E72;
+  --dark-cyan-300: #23564D;
+
 }
 
 body {
@@ -29,6 +32,6 @@ input, button, textarea, select, label {
   font-family: Barlow;
 }
 
-.font {
-  font-family: Fraunces;
+p {
+  font-family: Barlow;
 }

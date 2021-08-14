@@ -125,7 +125,27 @@ header .content-header nav a:last-child {
   flex-basis: 50%;
   background-image: url(/images/desktop/image-graphic-design.jpg);
   background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  padding-bottom: 7rem;
 }
+.graphic {
+  padding: 0 8rem;
+  color: var(--dark-cyan-200);
+}
+
+.graphic h1 {
+  color: var(--dark-cyan-300);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+
+
+
+
 
 .graphic-and-photography .photography {
   flex-basis: calc(50% + 6rem);
