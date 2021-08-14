@@ -1,0 +1,90 @@
+header {
+  background: var(--blue);
+  padding: 2rem 0.25rem;
+}
+
+header .content-header {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .content-header nav a {
+  font-family: Barlow !important;
+  font-weight: 200;
+  text-decoration: none;
+  color: var(--white);
+}
+
+header .content-header nav a + a {
+  margin-left: 2rem;
+}
+header .content-header nav a:last-child {
+  font-weight: bold;
+  color: black;
+  background: var(--white);
+  padding: 0.66rem 2.99rem;
+  width: 300px;
+  height: 2rem;
+
+  border-radius: 50px;
+}
+
+.background {
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--blue);
+  height: 90vh;
+
+  text-align: center;
+}
+
+.background h1 {
+  font-size: 4rem;
+  color: var(--white);
+  padding-top: 4rem;
+  margin-bottom: 7rem;
+}
+
+.transform {
+  display: flex;
+}
+
+.transform .transform-content {
+  padding: 0 8rem;
+  display: flex;
+  align-items: center;
+}
+
+.transform .transform-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+}
+.transform .transform-content p {
+  font-family: Barlow !important;
+  font-weight: 400;
+
+  margin-bottom: 2rem;
+}
+
+.transform .transform-content a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--dark-blue);
+  border-bottom: 2px dashed var(--yellow);
+}
+
+.stand-audience {
+  display: flex;
+}
+
+.stand-audience img {
+  width: 720px;
+  height: 600px;
+}
