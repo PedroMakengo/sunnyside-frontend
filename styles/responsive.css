@@ -34,8 +34,16 @@
     margin-bottom: 4rem;
   }
 
-  main {
+  main .transform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
+
+  main .transform img {
+    order: -1;
+  }
+
   footer {
     display: none;
   }
