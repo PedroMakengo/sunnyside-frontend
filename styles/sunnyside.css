@@ -12,6 +12,10 @@ header .content-header {
   justify-content: space-between;
 }
 
+header button {
+  display: none;
+}
+
 header .content-header nav a {
   font-family: Barlow !important;
   font-weight: 200;
@@ -102,7 +106,7 @@ header .content-header nav a:last-child {
 .stand-audience .stand-audience-content h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: var(--dark-blue);    
+  color: var(--dark-blue);
 }
 
 .stand-audience-content p {
@@ -125,7 +129,7 @@ header .content-header nav a:last-child {
   width: 100%;
 }
 
-.graphic-and-photography .graphic{
+.graphic-and-photography .graphic {
   width: 50%;
   background-image: url(/images/desktop/image-graphic-design.jpg);
   background-position: center;
@@ -177,7 +181,7 @@ header .content-header nav a:last-child {
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 4rem;
-  color: var( --dark-graysh-blue-200);
+  color: var(--dark-graysh-blue-200);
 }
 
 .client-testimonials .testimonials-content {
@@ -186,7 +190,7 @@ header .content-header nav a:last-child {
 }
 
 .client-testimonials .testimonials-content article {
-  margin: 0 1rem; 
+  margin: 0 1rem;
   text-align: center;
   width: 40%;
 }
@@ -203,7 +207,6 @@ header .content-header nav a:last-child {
   padding: 0 0.5rem;
 }
 
-
 .client-testimonials .testimonials-content article strong {
   display: block;
   margin-bottom: 1rem;
@@ -212,7 +215,7 @@ header .content-header nav a:last-child {
 .client-testimonials .testimonials-content article small {
   font-family: Barlow;
   font-weight: 100;
-  color: var( --dark-graysh-blue-200);
+  color: var(--dark-graysh-blue-200);
 }
 
 .galery {
@@ -223,10 +226,9 @@ header .content-header nav a:last-child {
   width: 25%;
 }
 
-
 footer {
   padding: 5rem;
-  background: #90D4C5;
+  background: #90d4c5;
   text-align: center;
 }
 

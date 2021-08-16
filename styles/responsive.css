@@ -1,0 +1,42 @@
+@media (max-width: 375px) {
+  header {
+    width: 100%;
+  }
+
+  header button {
+    display: block;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background: transparent;
+  }
+
+  header button i {
+    font-size: 2rem;
+  }
+
+  header .content-header {
+    padding: 0 1rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .background {
+    background-image: url(../images/mobile/image-header.jpg);
+    background-position: center;
+    height: 70vh;
+  }
+
+  .background h1 {
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  main {
+  }
+  footer {
+    display: none;
+  }
+}
