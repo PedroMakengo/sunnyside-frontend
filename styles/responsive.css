@@ -81,14 +81,52 @@
   }
 
   .graphic-and-photography .graphic {
+    height: 500px;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0rem 1.2rem 3rem 1.2rem;
   }
 
   .graphic-and-photography .photography {
+    height: 500px;
     width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 0rem 1.2rem 3rem 1.2rem;
   }
 
-  footer {
-    display: none;
+  .client-testimonials {
+    padding: 0;
+  }
+
+  .title-client-testminonials h1 {
+    margin-top: 3rem;
+  }
+
+  .client-testimonials {
+    height: auto;
+  }
+
+  .client-testimonials .testimonials-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .client-testimonials .testimonials-content article {
+    margin: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .client-testimonials .testimonials-content article + article {
+    margin-top: 2rem;
+  }
+
+  .client-testimonials .testimonials-content article p {
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 }
