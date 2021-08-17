@@ -58,13 +58,34 @@
   main .transform .transform-content p {
     font-size: 1.2rem;
   }
+
   main .stand-audience {
     display: flex;
     flex-direction: column;
   }
+
   main .stand-audience img {
     width: 100%;
     height: auto;
+  }
+
+  main .stand-audience .stand-audience-content {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  main .graphic-and-photography {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .graphic-and-photography .graphic {
+    width: 100%;
+  }
+
+  .graphic-and-photography .photography {
+    width: 100%;
   }
 
   footer {
