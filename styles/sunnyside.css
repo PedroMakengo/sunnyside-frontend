@@ -30,6 +30,7 @@ header .content-header nav a {
 header .content-header nav a + a {
   margin-left: 2rem;
 }
+
 header .content-header nav a:last-child {
   font-weight: bold;
   color: black;
