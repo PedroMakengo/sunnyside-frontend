@@ -19,8 +19,47 @@
     padding: 0 1rem;
   }
 
-  header nav {
+  header .content-header nav {
     display: none;
+  }
+
+  header .content-nav-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 338px;
+
+    margin: 2.5rem auto;
+
+    background: #fff;
+    height: 376px;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+  }
+
+  header .content-nav-mobile a {
+    display: block;
+    color: var(--dark-graysh-blue);
+
+    font-family: Barlow;
+    font-weight: bold;
+
+    text-decoration: none;
+    text-align: center;
+  }
+
+  header .content-nav-mobile a + a {
+    margin-top: 2rem;
+  }
+  header .content-nav-mobile a:last-child {
+    background: var(--yellow);
+    padding: 0.66rem 2.99rem;
+    width: 150px;
+
+    border-radius: 50px;
   }
 
   .background {

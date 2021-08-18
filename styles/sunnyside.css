@@ -12,6 +12,10 @@ header .content-header {
   justify-content: space-between;
 }
 
+header .content-nav-mobile {
+  display: none;
+}
+
 header button {
   display: none;
 }
