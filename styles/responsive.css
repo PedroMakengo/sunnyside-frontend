@@ -19,7 +19,7 @@
     padding: 0 1rem;
   }
 
-  nav {
+  header nav {
     display: none;
   }
 
@@ -128,5 +128,22 @@
     padding: 0;
     margin-top: 1rem;
     margin-bottom: 2rem;
+  }
+
+  .galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .galery img {
+    width: 50%;
+  }
+
+  footer {
+    padding: 4rem 0;
+  }
+
+  footer nav a {
   }
 }

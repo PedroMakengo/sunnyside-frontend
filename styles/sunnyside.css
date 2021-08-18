@@ -252,3 +252,17 @@ footer nav a:hover {
 footer nav a + a {
   margin-left: 2rem;
 }
+
+.footer-icons {
+  margin-top: 4rem;
+}
+
+.footer-icons a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--dark-cyan-300);
+}
+
+.footer-icons a + a {
+  margin-left: 1rem;
+}
