@@ -136,7 +136,7 @@ header .content-header nav a:last-child {
 
 .graphic-and-photography .graphic {
   width: 50%;
-  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-image: url(../images/desktop/image-graphic-design.jpg);
   background-position: center;
 
   display: flex;
@@ -158,7 +158,7 @@ header .content-header nav a:last-child {
 
 .graphic-and-photography .photography {
   width: 50%;
-  background-image: url(/images/desktop/image-photography.jpg);
+  background-image: url(../images/desktop/image-photography.jpg);
   background-position: center;
 
   display: flex;
